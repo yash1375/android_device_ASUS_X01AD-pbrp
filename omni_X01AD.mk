@@ -41,6 +41,9 @@ TARGET_VENDOR_PRODUCT_NAME := X01AD
 TARGET_VENDOR_DEVICE_NAME := X01AD
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=0 \
     ro.hardware.keystore=sdm632 \
     sys.usb.controller=7000000.dwc3 \
     sys.usb.rndis.func.name=rndis_bam \
