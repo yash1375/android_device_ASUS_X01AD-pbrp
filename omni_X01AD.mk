@@ -42,6 +42,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.usb.rndis.func.name=rndis_bam \
     sys.usb.rmnet.func.name=rmnet_bam
 
-# Blacklist Properties
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.device
