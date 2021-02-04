@@ -12,7 +12,7 @@ jobs:
       FLAVOR: 'eng'
       PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Added default dm-verity disabler flag
+        - Sync Latest source
     working_directory: /home/builder/pitchblack
     steps:
       - run:
