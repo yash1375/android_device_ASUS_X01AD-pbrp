@@ -12,7 +12,7 @@ jobs:
       FLAVOR: 'eng'
       PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Sync Latest source
+        - Sync to Latest source
     working_directory: /home/builder/pitchblack
     steps:
       - run:
