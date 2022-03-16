@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
